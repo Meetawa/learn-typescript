@@ -1,4 +1,4 @@
-# "HTML for Beginners"
+# "TYPESCRIPT for Beginners"
 
 ### Full Course
 
@@ -15,7 +15,6 @@
 
 - [Twitter](https://twitter.com/rahumeetawa)
 - [LinkedIn](https://www.linkedin.com/in/rahul-saini-3950501a2/)
--
 
 
 ---
