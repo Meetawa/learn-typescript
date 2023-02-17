@@ -1,4 +1,4 @@
-# "TYPESCRIPT for Beginners"
+# "TYPESCRIPT(ts) for Beginners"
 
 ### Full Course
 
