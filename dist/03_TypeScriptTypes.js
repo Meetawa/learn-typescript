@@ -48,7 +48,7 @@ console.log(typeof person[0]);
 console.log(typeof person[1]);
 console.log(typeof person[2]);
 //TUPLES ARRAY
-let employee = [number, string, number][];
+let employee;
 employee = [
     [1001, "rahulsaini", 93.00],
     [1002, "shivam", 97.99],
@@ -57,3 +57,33 @@ employee = [
     [1005, "deepak", 100],
     [1006, "anna", 50],
 ];
+console.log(employee);
+console.log(typeof employee); //object
+//UNION (its use combine)
+let pid;
+pid = 'rahulsaini';
+console.log(pid); //rahulsaini
+pid = 3;
+console.log(pid); //3
+//ENUM (it is basically allow us to difine a setof named constants either numberic ,string)
+var directin1;
+(function (directin1) {
+    directin1[directin1["up"] = 1] = "up";
+    directin1[directin1["down"] = 2] = "down";
+    directin1[directin1["left"] = 3] = "left";
+    directin1["right"] = "right";
+})(directin1 || (directin1 = {}));
+console.log(directin1.up); //1
+console.log(directin1.down); //2
+console.log(directin1.right); //right
+//object
+const user = {
+    id: 1,
+    name: 'rahulji'
+};
+console.log(user);
+const user1 = {
+    id: 1,
+    name: 'yoman'
+};
+console.log(user1);
