@@ -9,6 +9,7 @@ DIFFERENT TYPES OF TYPESCRIPT:
         -Explicit
         -Implicit
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 //Explicit - writing out the type(Explicit type assignment are easier to read and more intentional.)
 let a = "rahulsaini";
 console.log(a);
@@ -32,58 +33,10 @@ v = "string"; // no error as it can be "any" type
 console.log(v); //string
 let arr = [1, true, 'hello'];
 console.log(arr);
-//Explicit Array
-let ids = [1, 2, 3, 4, 5];
-console.log(ids); //[1, 2, 3, 4, 5]
-ids.push(23);
-ids.push(25);
-console.log(ids); //[1, 2, 3, 4, 5, 23, 25]
-ids.push("hello man");
-console.log(ids); //[1, 2, 3, 4, 5, 23, 25, 'hello man']
-//TUPLES
-let person = [1, 'rahulsaini', true];
-console.log(person);
-console.log(typeof person); //object
-console.log(typeof person[0]);
-console.log(typeof person[1]);
-console.log(typeof person[2]);
-//TUPLES ARRAY
-let employee;
-employee = [
-    [1001, "rahulsaini", 93.00],
-    [1002, "shivam", 97.99],
-    [1003, "sunny", 99],
-    [1004, "kishan", 99.99],
-    [1005, "deepak", 100],
-    [1006, "anna", 50],
-];
-console.log(employee);
-console.log(typeof employee); //object
 //UNION (its use combine)
 let pid;
 pid = 'rahulsaini';
 console.log(pid); //rahulsaini
 pid = 3;
 console.log(pid); //3
-//ENUM (it is basically allow us to difine a setof named constants either numberic ,string)
-var directin1;
-(function (directin1) {
-    directin1[directin1["up"] = 1] = "up";
-    directin1[directin1["down"] = 2] = "down";
-    directin1[directin1["left"] = 3] = "left";
-    directin1["right"] = "right";
-})(directin1 || (directin1 = {}));
-console.log(directin1.up); //1
-console.log(directin1.down); //2
-console.log(directin1.right); //right
-//object
-const user = {
-    id: 1,
-    name: 'rahulji'
-};
-console.log(user);
-const user1 = {
-    id: 1,
-    name: 'yoman'
-};
-console.log(user1);
+//type assertion

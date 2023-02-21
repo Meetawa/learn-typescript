@@ -9,7 +9,7 @@ DIFFERENT TYPES OF TYPESCRIPT:
         -Implicit
 */
 
-
+export {};
 //Explicit - writing out the type(Explicit type assignment are easier to read and more intentional.)
 let a :string="rahulsaini"
 console.log(a);
@@ -49,40 +49,9 @@ console.log(arr);
 
 
 
-//Explicit Array
-let ids :number[]=[1,2,3,4,5]
-console.log(ids);//[1, 2, 3, 4, 5]
-ids.push(23);
-ids.push(25);
-console.log(ids); //[1, 2, 3, 4, 5, 23, 25]
-ids.push("hello man");
-console.log(ids);//[1, 2, 3, 4, 5, 23, 25, 'hello man']
 
 
 
-//TUPLES
-let person:[number,string,boolean]=[1,'rahulsaini',true]
-console.log(person);
-console.log(typeof person);//object
-console.log(typeof person[0]);
-console.log(typeof person[1]);
-console.log(typeof person[2]);
-
-
-
-//TUPLES ARRAY
-let employee:[number,string,number][]
-
-employee=[
-    [1001,"rahulsaini",93.00],
-    [1002,"shivam",97.99],
-    [1003,"sunny",99],
-    [1004,"kishan",99.99],
-    [1005,"deepak",100],
-    [1006,"anna",50],
-]
-console.log(employee);
-console.log(typeof employee);//object
 
 
 
@@ -93,42 +62,10 @@ console.log(pid);//rahulsaini
 pid=3;
 console.log(pid);//3
 
-//ENUM (it is basically allow us to difine a setof named constants either numberic ,string)
-enum directin1{
-    up=1,
-    down,
-    left,
-    right="right",
-}
-console.log(directin1.up);//1
-console.log(directin1.down);//2
-console.log(directin1.right);//right
 
 
-//object
-const user:{
-    id:number,
-    name:string
-}={
-    id:1,
-    name:'rahulji'
-}
 
-console.log(user);
-
-//Another way is:
-type user1={
-    id:number,
-    name:string
-}
-
-const user1 :user1={
-    id:1,
-    name:'yoman'
-}
-console.log(user1);
-
-
+//type assertion
 
 
 
