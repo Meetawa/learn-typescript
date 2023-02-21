@@ -1,3 +1,4 @@
+"use strict";
 /*
   TODO:
   1.create a ts file which extension name .ts which stand for typescipt

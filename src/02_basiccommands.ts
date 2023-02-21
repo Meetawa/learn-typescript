@@ -5,7 +5,7 @@
     -Redeclaring a variable in the same block scope
   2.how to resolve
     -then we use modules for exporting ts file into js file
-    " export {} in head of file"
+    " export {}; in head of file"
   3.what is watch
     -match is used for compiling all ts file without using  'tsc filename' commands again and again and  also its gives somes errors if error in ts file 
     "file name --watch"

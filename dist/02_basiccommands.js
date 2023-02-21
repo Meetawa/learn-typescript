@@ -1,6 +1,6 @@
 "use strict";
-exports.__esModule = true;
-var a = "yo man";
+Object.defineProperty(exports, "__esModule", { value: true });
+let a = "yo man";
 //console.log(a)
-var d = "yo man";
+let d = "yo man";
 console.log(a, d, a == d);
